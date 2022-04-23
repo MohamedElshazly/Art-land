@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+*, *:before, *:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+.header, .hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #1f2937;
+}
+
+.title{
+    font-size: 30px;
+    margin: 15px;
+    color: #fff;
+    
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    list-style-type: none;
+}
+.links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+/* hero css */
