@@ -19,7 +19,7 @@ html {
 .title{
     font-size: 30px;
     margin: 15px 15px 0 80px;
-    color: #fff;
+    color: #f9faf8;
     
 }
 
@@ -32,7 +32,7 @@ html {
 }
 .links a{
     text-decoration: none;
-    color: #fff;
+    color: #f9faf8;
     font-size: 18px;
 }
 /* hero css */
@@ -42,11 +42,11 @@ html {
 .hero-content{
     flex-flow: column wrap;
     margin: 0 0 30px 80px;
-    color: #fff;
+    color: #f9faf8;
 }
 
 .hero button {
-    background-color: #008CBA;
+    background-color: #3882F6;
     border: none;
     padding: 10px 32px;
     border-radius: 5px;
@@ -55,7 +55,7 @@ html {
     margin: 15px 0; 
 }
 .hero .signup a{
-    color: #fff;
+    color: #f9faf8;
     text-decoration: none;
 }
 .hero-img{
@@ -113,4 +113,35 @@ html {
     font-weight: 900;
     font-size: 24px;
     padding-left: 600px;
+}
+
+/* call to action css */
+.call-to-action{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 50px 100px; 
+}
+
+.call-area{
+    margin: 50px 0px;
+    color: #f9faf8; 
+}
+.call-area h2{
+    font-weight: 900;
+
+}
+.call-join{
+    align-self: center;
+    /* margin: 0px 120px; */
+}
+.call-join button{
+    border: 2px solid #f9faf8;
+    background-color: transparent;
+    color: #f9faf8;
+    padding: 10px 50px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer; 
 }
