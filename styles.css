@@ -18,7 +18,7 @@ html {
 
 .title{
     font-size: 30px;
-    margin: 15px;
+    margin: 15px 15px 0 80px;
     color: #fff;
     
 }
@@ -28,6 +28,7 @@ html {
     gap: 10px;
     padding: 10px;
     list-style-type: none;
+    margin: 15px 80px 0 15px;
 }
 .links a{
     text-decoration: none;
@@ -35,3 +36,58 @@ html {
     font-size: 18px;
 }
 /* hero css */
+.hero{
+    align-items: center;
+}
+.hero-content{
+    flex-flow: column wrap;
+    margin: 0 0 30px 80px;
+    color: #fff;
+}
+
+.hero button {
+    background-color: #008CBA;
+    border: none;
+    padding: 10px 32px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    margin: 15px 0; 
+}
+.hero .signup a{
+    color: #fff;
+    text-decoration: none;
+}
+.hero-img{
+    margin-right: 80px;
+}
+
+/* content css */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 32px;
+}
+.content-title{
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+.content .images {
+    display: flex;
+}
+
+.icon{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.images .icon img{
+    width: 200px;
+    height: 200px;
+}
