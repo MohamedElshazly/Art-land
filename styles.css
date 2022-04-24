@@ -25,7 +25,7 @@ html {
 
 .links{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     padding: 10px;
     list-style-type: none;
     margin: 15px 80px 0 15px;
@@ -34,6 +34,14 @@ html {
     text-decoration: none;
     color: #f9faf8;
     font-size: 18px;
+}
+
+.links a:hover{
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+    
 }
 /* hero css */
 .hero{
